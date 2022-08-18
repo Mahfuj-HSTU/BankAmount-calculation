@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Bank site using JavaScript</title>
+  </head>
+  <body>
+    <header class="mt-10">
+      <h1 class="text-5xl text-center">
+        Welcome to our <span class="font-semibold text-lime-400">Bank!!</span>
+      </h1>
+    </header>
+    <main>
+      <section class="bg-blue-100 w-9/12 mx-auto mt-10 p-8">
+        <h3 class="font-semibold mb-2">Please Login</h3>
+        <div>
+          <input
+            class="w-9/12 block mb-2 px-3"
+            type="email"
+            name=""
+            id="user-email"
+            placeholder="Enter Email address"
+          />
+          <input
+            class="w-9/12 block mb-2 px-3"
+            type="password"
+            name=""
+            id="user-password"
+            placeholder="Enter Password"
+          />
+          <button
+            class="bg-amber-600 hover:bg-sky-700 px-4 py-1 font-medium text-white rounded-md"
+            id="btn-submit"
+          >
+            Submit
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="./js/login.js"></script>
+  </body>
+</html>
